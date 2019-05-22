@@ -43,7 +43,7 @@ describe('Pages', () => {
     }
     pages.calc(req, res)
     expect(res.send.calledOnce).to.be.true
-    expect(res.send.calledWith('Divisivel')).to.be.true
+    expect(res.send.calledWith('DivisaoZero')).to.be.true
   })
   it('should calc properly - nao divisivel', () => {
     const req = {
