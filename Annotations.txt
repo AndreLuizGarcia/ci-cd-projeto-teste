@@ -1,0 +1,32 @@
+CI/CD - Continuos Integration/Continuos Deploy
+
+-> continuos integration - rodamos os testes
+-> continuos Deploy - conectar no servidor, transferir os arquivos, rodar novamente....automatizar este passo
+
+- github.com
+- http://codeship.com/   --> continuos integration
+- digitalocean.com --> continous deploy
+
+feature branch git workflow
+
+
+commands git:{
+  git checkout -b feature/feature-name
+}
+
+npm install -g pm2   -- Gerenciando aplicações Node.js - Advanced Node.js process manager
+
+**ver o que este comando faz ==> rsync -avz -e "ssh" ~/clone/ root@ip:/opt/projeto-test/
+
+jenkins  -- continnuos integration and continnous Deploy
+{
+  yum install java
+
+  yum install wget
+
+  sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
+
+  sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+
+  sudo yum install jenkins
+}
